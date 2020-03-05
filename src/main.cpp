@@ -124,7 +124,7 @@ void loop() {
     else
       Serial.print('-');
   }
-  Serial.println(F(" mm."));
+  Serial.println(F(" cm."));
 #ifdef LED_PIN
   digitalWrite(LED_PIN, ! LED_LEVEL);
 #endif
